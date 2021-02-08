@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/person"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Quien gasto?"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/money"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Cuanto gasto?"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar" />
+
+    <ListView
+        android:id="@+id/listaGastos"
+        android:layout_width="match_parent"
+        android:layout_height="421dp" />
+
+</LinearLayout>
