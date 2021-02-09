@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import com.example.sindeudas.Model.Persona
 import kotlinx.android.synthetic.main.item_gasto.view.*
 
 class GastosAdapter(private val mContext: Context, private val listaGastos: ArrayList<Persona>): ArrayAdapter<Persona>(mContext,0,listaGastos) {
